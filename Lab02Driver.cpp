@@ -1,6 +1,6 @@
 #include "ReadFile.h"
 #include "WriteFile.h"
-#include "String.h"
+#include "Text.h"
 #include "Tokens.h"
 
 #include <iostream>
@@ -18,8 +18,6 @@ int main()
 
    rf->close();
    wf->close();
-   delete rf;
-   delete wf;
 
    return 0;
 }
