@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['tokens',['Tokens',['../classTokens.html#a326b0694ea391f608f9cc71fe236c3bc',1,'Tokens']]]
+  ['eof',['eof',['../classReadFile.html#a04a448646a2125106a323f64fa4e8410',1,'ReadFile']]]
 ];

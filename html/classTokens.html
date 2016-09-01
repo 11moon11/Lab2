@@ -89,7 +89,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
-<p>Class to divide up a <a class="el" href="classString.html">String</a> into individual tokens based on a character delimiter.  
+<p>Class to divide up a String into individual tokens based on a character delimiter.  
  <a href="classTokens.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="Tokens_8h_source.html">Tokens.h</a>&gt;</code></p>
@@ -97,8 +97,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a326b0694ea391f608f9cc71fe236c3bc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a326b0694ea391f608f9cc71fe236c3bc"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTokens.html#a326b0694ea391f608f9cc71fe236c3bc">Tokens</a> (<a class="el" href="classString.html">String</a> *str, char delimiter)</td></tr>
-<tr class="memdesc:a326b0694ea391f608f9cc71fe236c3bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor that accepts the <a class="el" href="classString.html">String</a> used to generate tokens and the character delimiter to determine the tokens (the passed in <a class="el" href="classString.html">String</a> is unaffected). <br /></td></tr>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTokens.html#a326b0694ea391f608f9cc71fe236c3bc">Tokens</a> (String *str, char delimiter)</td></tr>
+<tr class="memdesc:a326b0694ea391f608f9cc71fe236c3bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor that accepts the String used to generate tokens and the character delimiter to determine the tokens (the passed in String is unaffected). <br /></td></tr>
 <tr class="separator:a326b0694ea391f608f9cc71fe236c3bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd11b5f66d858705695a122151ba1f0d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acd11b5f66d858705695a122151ba1f0d"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTokens.html#acd11b5f66d858705695a122151ba1f0d">~Tokens</a> ()</td></tr>
@@ -106,23 +106,22 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:acd11b5f66d858705695a122151ba1f0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad54aaf40815db1e85811b58d02b2531"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aad54aaf40815db1e85811b58d02b2531"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTokens.html#aad54aaf40815db1e85811b58d02b2531">displayTokens</a> ()</td></tr>
-<tr class="memdesc:aad54aaf40815db1e85811b58d02b2531"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display all of the tokens generated from the <a class="el" href="classString.html">String</a> and character delimiter passed to the constructor. <br /></td></tr>
+<tr class="memdesc:aad54aaf40815db1e85811b58d02b2531"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display all of the tokens generated from the String and character delimiter passed to the constructor. <br /></td></tr>
 <tr class="separator:aad54aaf40815db1e85811b58d02b2531"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7afcc723baf9f48a9150a2f2d8bb2e5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab7afcc723baf9f48a9150a2f2d8bb2e5"></a>
-<a class="el" href="classString.html">String</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTokens.html#ab7afcc723baf9f48a9150a2f2d8bb2e5">getToken</a> (int index)</td></tr>
-<tr class="memdesc:ab7afcc723baf9f48a9150a2f2d8bb2e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a specific token whose index is determined by the token location in the original <a class="el" href="classString.html">String</a> (0-based). <br /></td></tr>
-<tr class="separator:ab7afcc723baf9f48a9150a2f2d8bb2e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa394240a0ebcfe09fc30664be614bf30"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa394240a0ebcfe09fc30664be614bf30"></a>
+String *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTokens.html#aa394240a0ebcfe09fc30664be614bf30">getToken</a> (int index)</td></tr>
+<tr class="memdesc:aa394240a0ebcfe09fc30664be614bf30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a specific token whose index is determined by the token location in the original String (0-based). <br /></td></tr>
+<tr class="separator:aa394240a0ebcfe09fc30664be614bf30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa34f5363d72f5c761f7b9f9164067efe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa34f5363d72f5c761f7b9f9164067efe"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTokens.html#aa34f5363d72f5c761f7b9f9164067efe">getNumTokens</a> ()</td></tr>
 <tr class="memdesc:aa34f5363d72f5c761f7b9f9164067efe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of tokens generated given the parameters passed to the constructor (&gt;= 1). <br /></td></tr>
 <tr class="separator:aa34f5363d72f5c761f7b9f9164067efe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Class to divide up a <a class="el" href="classString.html">String</a> into individual tokens based on a character delimiter. </p>
-<p>The <a class="el" href="classTokens.html" title="Class to divide up a String into individual tokens based on a character delimiter. ">Tokens</a> class accepts a <a class="el" href="classString.html">String</a> and a character (the delimiter) through the constructor. Several Strings (tokens) are created based on the appearance of the delimiter in the original <a class="el" href="classString.html">String</a>. The delimiter itself is not part of the tokens. The resulting tokens can be obtained by index according to their location in the original <a class="el" href="classString.html">String</a>. The original <a class="el" href="classString.html">String</a> is unaffected. Note that the destructor does <b>not</b> delete the individual tokens. </p>
-</div><hr/>The documentation for this class was generated from the following files:<ul>
+<div class="textblock"><p>Class to divide up a String into individual tokens based on a character delimiter. </p>
+<p>The <a class="el" href="classTokens.html" title="Class to divide up a String into individual tokens based on a character delimiter. ">Tokens</a> class accepts a String and a character (the delimiter) through the constructor. Several Strings (tokens) are created based on the appearance of the delimiter in the original String. The delimiter itself is not part of the tokens. The resulting tokens can be obtained by index according to their location in the original String. The original String is unaffected. Note that the destructor does <b>not</b> delete the individual tokens. </p>
+</div><hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="Tokens_8h_source.html">Tokens.h</a></li>
-<li>Tokens.cpp</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

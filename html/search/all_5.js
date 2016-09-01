@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['string',['String',['../classString.html',1,'']]]
+  ['tokens',['Tokens',['../classTokens.html',1,'Tokens'],['../classTokens.html#a326b0694ea391f608f9cc71fe236c3bc',1,'Tokens::Tokens()']]]
 ];
